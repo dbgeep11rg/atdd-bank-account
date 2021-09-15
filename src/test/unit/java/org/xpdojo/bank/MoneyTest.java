@@ -47,6 +47,7 @@ class MoneyTest {
 		assertThat(amountOf(10).plus(amountOf(-14)), is(amountOf(-4)));
 	}
 
+
 	@Test
 	void subtractingAnAmountShouldGiveTheSubtractedSum() {
 		assertThat(amountOf(14).minus(amountOf(10)), is(amountOf(4)));
